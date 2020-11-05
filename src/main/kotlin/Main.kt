@@ -25,4 +25,10 @@ fun main() {
     // Инстанс внутреннего класса можно создать из уже созданного инстанса внешнего
     smartphoneWithNoScreen.Screen()
     val smartphoneWithScreen=Smartphone("Apple").Screen()
+
+    val lamp = Lamp()
+    lamp.on()
+    lamp.changeBulbCapacity(200)
+    lamp.on()
+
 }
