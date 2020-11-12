@@ -17,5 +17,8 @@ class Smartphone(val brend:String){
         init {
             println("Screen is created from smartphone instance with brend: $brend, Id: $id")
         }
+        fun display(){
+            println("Display is working")
+        }
     }
 }

@@ -27,6 +27,10 @@ class Computer(val brend: String) {
         println("This computer id: $id")
     }
 
+    fun installHDD(hdd:HardDrive){
+        TODO("запилить ченить что показать, что nested class нужен только работы с внешним классом" )
+    }
+
     class HardDrive(val volume: Int) {
         val id = hddCounter++
 
